@@ -2,10 +2,13 @@
 
 Logistic Regression (also called Logit Regression) is commonly used to estimate the probability that an instance belongs to a particular class (e.g., what is the probability that this email is spam?).
 
+![download](https://user-images.githubusercontent.com/44503223/127791357-2d1aa4d4-44c8-4e72-a8aa-fba5cc6838ec.png)
+
 #### Content Includes:
 - Regularization
-- Softmax Regression
-- Multinomial Logistic Regression
+  - Just like the other linear models, Logistic Regression models can be regularized using ℓ1 or ℓ2 penalties. Scikit-Learn actually adds an ℓ2 penalty by default.
+- Softmax Regression/Multinomial Logistic Regression
+  - The Logistic Regression model can be generalized to support multiple classes directly, without having to train and combine multiple binary classifiers. This is called Softmax Regression, or Multinomial Logistic Regression.
 
 ## Learn More
 
