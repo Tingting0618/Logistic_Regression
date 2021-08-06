@@ -8,6 +8,7 @@ Logistic Regression (also called Logit Regression) is commonly used to estimate 
 - Regularization
   - Just like the other linear models, Logistic Regression models can be regularized using ℓ1 or ℓ2 penalties. Scikit-Learn actually adds an ℓ2 penalty by default.
 - Softmax Regression/Multinomial Logistic Regression
+  - Whereas binary classifiers distinguish between two classes, multiclass classifiers (also called multinomial classifiers) can distinguish between more than two classes.
   - The Logistic Regression model can be generalized to support multiple classes directly, without having to train and combine multiple binary classifiers. This is called Softmax Regression, or Multinomial Logistic Regression.
 
 ## Learn More
